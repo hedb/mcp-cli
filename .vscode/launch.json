@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "mcp-cli chat with cyco_data",
+            "type": "python",
+            "request": "launch",
+            "module": "mcp_cli.main",
+            "args": ["chat", "--server", "cyco-data"],
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+} 

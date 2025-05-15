@@ -43,6 +43,18 @@
       "sandbox": {
         "command": "uv",
         "args": ["--directory", "/Users/christopherhay/chris-source/agent-x/mcp-servers/chuk-mcp-sandbox", "run", "src/chuk_mcp_sandbox/main.py"]
-      }
+      },
+
+    "cyco-data": {
+      "command": "uv",
+      "args": [
+          "--directory",
+          "/Users/hed-bar-nissan/github/hack-2025-cyco-mcp/src",
+          "run",
+          "main.py"
+      ]
+  }
     }
+
+
   }
